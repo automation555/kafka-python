@@ -34,9 +34,9 @@ modules:
     enabled: true
     config:
       - name: config
-	type: text
-	required: true
-	value: kafka/saurabh_pylintrc
+    type: text
+    required: true
+    value: kafka/saurabh_pylintrc
 
 #modules:
 #  - name: pmd
