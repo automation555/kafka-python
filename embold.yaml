@@ -30,14 +30,11 @@ sources:
 # Get List of Modules (Which are Default Enabled/Disabled) at the documentation link above
 
 modules:
-  - name: pylint
-    enabled: true
-    config:
-      - name: config
-    type: text
-    required: true
-    value: kafka/saurabh_pylintrc
-
+- name: pylint
+enabled: true
+config:
+- name: config
+value: kafka/saurabh_pylintrc
 #modules:
 #  - name: pmd
 #    enabled: true
@@ -45,4 +42,3 @@ modules:
 #    enabled: false
 #  - name: jshint
 #    enabled: true
-
