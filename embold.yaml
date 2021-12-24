@@ -25,6 +25,12 @@ sources:
 # Specify the languages you would like to Scan. Default is all Detected
 languages: 'JAVA,PYTHON'
 
+modules:
+  - name: pylint
+    enabled: true
+    config:
+      - name: config
+        value: kafka/saurabh_pylintrc
 
 # Define modules one would like to run or disable. This is enough for Basic Users
 # Get List of Modules (Which are Default Enabled/Disabled) at the documentation link above
