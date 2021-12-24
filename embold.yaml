@@ -4,4 +4,4 @@ modules:
     enabled: true
     config:
       - name: config
-        value: kafka/saurabh_pylintrc
+        value: kafka/saurabh_pylintrc1
